@@ -1,15 +1,14 @@
 public class BoxRunner {
     public static void main(String[] args){
-        Box bob = new Box(3);
-        int v = bob.getVolume();
-        System.out.println( v + "cu.in");
+       Box Neil = new Box(2.0,6.0);
+       double area = Neil.getArea();
+       System.out.println("The area is " + area);
+       Neil.bigger(2.0);
+       double perimeter = Neil.getPerimeter();
+       System.out.println("The perimeter is " + perimeter);
 
-        Box ann = new Box(4);
-        v = (ann.getVolume9);
-        System.put.print (v + "cu.in");
+    
         
-        ann.change(2);
-        v = ann.getVolume();
-        System.out.println(V + "cu.in");
+      
     }
 }
