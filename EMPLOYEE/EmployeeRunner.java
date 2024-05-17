@@ -7,7 +7,7 @@ public class EmployeeRunner {
 
         Neil.increase(-500.0);
         p = Neil.getPay();
-        System.out.print("Salary is " + p);
+        System.out.println("Salary is " + p);
 
         Neil.increase(3000.0);
         p = Neil.getPay();
