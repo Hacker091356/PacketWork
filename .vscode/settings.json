@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "TRAVEL",
         "EMPLOYEE",
         "DICE",
         "CIRCLE",
         "BOX",
-        "TRAVEL"
+        "CUBE"
     ]
 }
